@@ -23,10 +23,8 @@ def is_longer(dna1, dna2):
     >>> is_longer('ATCG', 'ATCGGA')
     False
     """
-    if len(dna1) > len(dna2):
-        return True
-    else:
-        return False
+    return len(dna1) > len(dna2)
+        
 
 
 def count_nucleotides(dna, nucleotide):
